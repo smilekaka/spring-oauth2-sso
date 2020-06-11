@@ -14,7 +14,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+* @description 自定义用户详情服务层
+*
+* @author Jin Chun Liang
+* @date 2020/6/9
+*/
 @Service
 public class CustomUserDetailsService implements UserDetailsService {
 

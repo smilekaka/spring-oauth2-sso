@@ -5,6 +5,11 @@ spring:
     url: jdbc:mysql://localhost:3306/oh_coupon?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
     username: root
     password: root
+#  session:
+#    store-type: redis
+#    redis:
+#      host: 127.0.0.1
+#      port: 6379
 logging:
   level:
     root: info
